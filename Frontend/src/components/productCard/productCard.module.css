@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #c0c0c0;
+    border-radius: 8px;
+    height: 450px;
+    width: 300px;
+    box-shadow: 2px 2px 5px #c9c9c9;
+    transition: 0.3s ease-in-out;
+}
+.wrapper:hover{
+    scale: 1.02;
+}
+.img{
+    border-radius: 8px;
+   
+}
+.upper{
+    object-fit: contain;
+    padding: 20px 0;
+}
+.lower{
+    line-height: 2;
+}
+.static{
+    color: blueviolet;
+}
+.buyNow{
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #0c0c0c;
+    border-radius: 16px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.buyNow:hover{
+    background-color: blueviolet;
+}

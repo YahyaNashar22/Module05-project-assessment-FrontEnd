@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+.logo{
+    padding: 0 40px;
+    color: blueviolet;
+    font-size: 48px;
+    width: 48vw;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+.signin, .signup{
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 0.3s linear;
+}
+.signin{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color:#c0c0c0;
+    border-radius: 16px;
+}
+.signup{
+    border:1px solid #c0c0c0;
+    border-radius: 16px;
+}
+.signin:hover{
+    background-color: #0c0c0c;
+}
+.signup:hover{
+    background-color: #c0c0c0;
+    color: #0c0c0c;
+}
+.shoppingCart{
+    cursor: pointer;
+}
